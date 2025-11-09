@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: product-service
+
+# Common logging
+logging:
+  level:
+    root: INFO
+    com.microservice.productservice: DEBUG
+
+# Common properties
+app:
+  message: "Hello from Config Server (COMMON)"
