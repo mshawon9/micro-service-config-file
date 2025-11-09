@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:postgresql://postgres:5432/shopdb
     username: postgres
-    password: admin
+    password: '{cipher}2848a9eff4de2e820e4cfc7fae44cf6cc7a828e185d099d83897f28ba3f9bab6'
     driver-class-name: org.postgresql.Driver
 
   jpa:
