@@ -10,4 +10,4 @@ logging:
 
 # Common properties
 app:
-  message: "Hello from Config Server (COMMON)"
+  message: "Hello from Config Server from github repo"
