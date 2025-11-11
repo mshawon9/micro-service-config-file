@@ -19,3 +19,12 @@ eureka:
       hostname: localhost
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      
+app:
+  message: "Hello from order config"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info,env
