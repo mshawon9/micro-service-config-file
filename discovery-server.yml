@@ -1,9 +1,10 @@
+server:
+  port: 8761
+
 spring:
-  application:
-    name: discovery-server
   cloud:
     config:
-      uri: http://config-server:8071
+      uri: http://localhost:8071
 eureka:
   instance:
     hostname: localhost
